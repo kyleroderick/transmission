@@ -1,0 +1,14 @@
+<div class="contain">
+<h4 class="related-header">Related Posts</h4>
+  <ul class="related-list">
+    {% for related_post in parent.posts %}
+    {% for tag in current.taxonomy['tags'].values %}
+     {% if related_post.taxonomy['tags'][tag.slug] and related_post.id != current.id %}
+      <li><a href="{{related_post.url}}">{{related_post.title}}</a></li>
+      {% break %}
+      {% endif %}
+    {% endfor %}
+    {% if forloop.index == 3 %}{% break %}{% endif %}
+    {% endfor %} 
+  </ul>
+</div>

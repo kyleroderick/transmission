@@ -1,0 +1,158 @@
+@import "reset";
+@import "bits";
+@import "type";
+@import "player";
+@import "compass/css3";
+
+// Structure
+
+html {
+  height: 100%;
+}
+
+#nav-contain {
+  height: 200pt;
+  max-width: 450pt;
+  margin-left: 10pt;
+  padding: 0px 10pt 0px 10pt;
+}
+
+
+#contain {
+  max-width: 450pt;
+  margin: 50px auto;
+  padding: 0px 20pt 150pt 20pt;
+  img {
+	max-width: 100%;
+  }
+}
+
+
+header {
+  height: 100pt;
+  padding-top: 20pt;
+  vertical-align: middle;
+  margin: 10pt auto 10pt auto;
+  border-bottom: 1pt solid $LightGrey;
+  width: 450pt;
+}
+
+.logo {
+  width: 140pt;
+  margin: 0px auto 0px auto;
+  vertical-align: middle;
+  img {
+    width: 140pt;
+  }
+}
+
+nav {
+  font-size: .75em;
+  width: 450pt;
+	font-weight: 800;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	text-align: center;
+	vertical-align: center;
+	display: inline-block;
+	li {
+  	min-width: 30pt;
+		display:inline;
+		padding-right: 2em;
+	}
+	ul {
+  	vertical-align: center;
+	}
+	a {
+		text-decoration: none;
+		color: $MiddleGrey;
+		border-bottom:none;
+	}
+	.selected {
+  	color: $Blue;
+	}
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.img {
+	float: left;
+	max-width: 80%
+}
+
+
+.file-link {
+  text-align: center;
+	line-height: 0%;
+	a {
+	font-weight: 400;
+	font-size: 1.1em;
+	line-height: normal;
+	color: $MiddleGrey;
+	border-bottom: 1px solid $MiddleGrey;
+	}
+}
+
+
+
+
+
+small {
+	padding: 0 auto;
+}
+
+
+
+footer {
+  height: 150pt;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin-top: 200pt;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  background-color: #efefef;
+  text-align: center;
+}
+
+
+
+
+
+// For Printers
+
+@media print {
+  body { font-size: 12px; }
+  header { border: 0;padding: 0; margin: 0; text-align: center; }
+  .downloads, .byline, footer { display: none; }
+  header hgroup { border: 0; padding: 0; margin: 0; }
+  header h1 { margin: 0; padding: 0; font-size: 3em; border: 0; }
+  header h2 { border: 0; margin: 0; }
+  .downloads, footer { display: none; }
+  section { border: 0; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

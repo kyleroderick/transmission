@@ -1,0 +1,277 @@
+// Imports
+@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
+
+// Fonts
+@mixin sans {font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+@mixin iconfont {font-family: "FontAwesome";
+  -webkit-font-smoothing: antialiased;
+}
+
+
+@font-face {
+  font-family: "FontAwesome";
+  src: url('../fonts/fontawesome/fontawesome-webfont.eot?v=4.0.3');
+  src: url('../fonts/fontawesome/fontawesome-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'), url('../fonts/fontawesome/fontawesome-webfont.woff?v=4.0.3') format('woff'), url('../fonts/fontawesome/fontawesome-webfont.ttf?v=4.0.3') format('truetype'), url('../fonts/fontawesome/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  color: red;
+  line-height: 1;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 4rem;
+  min-height: 100%;
+  @include sans;
+  font-size: 17px;
+	font-weight: 400;
+	color: $DarkGrey;
+	a {
+    outline : none;
+	}
+}
+
+article body{
+  a {
+	text-decoration: none;
+	color: $Blue;
+	border-bottom:2px solid $Blue;
+	}
+	ul li {
+  	padding-top: .5em;
+	}
+}
+
+// Typography
+
+
+p {
+  line-height: 1.8em;
+	a {
+	text-decoration: none;
+	color: $Blue;
+	border-bottom:2px solid $Blue;
+	}
+}
+
+hr {
+  margin-top: 2em;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+  font-weight: 700;
+	line-height: normal;
+	a {
+		text-decoration: none;
+		border-bottom: none;
+		}
+}
+
+h2 {
+  padding-top: .5em;
+  	a {
+		text-decoration: none;
+		border-bottom: none;
+		}
+}
+
+h3 {
+	font-size: 2em;
+	line-height: normal;
+	font-weight: 600;
+	a {
+		text-decoration: none;
+		border-bottom: none;
+		color: $LinkColor;
+	}
+}
+
+h4 {
+  font-weight: 600;
+  line-height: 1.8em;
+  a {
+    text-decoration: none;
+    color: $DarkGrey;
+    border-bottom: none;
+    }
+}
+
+.related-header {
+  font-size: 1.3em;
+  margin-top: 2em;
+}
+
+.related-list {
+  padding: 0;
+  
+  list-style-type: none;
+  padding-left: 1em;
+  font-weight: 600;
+  border-left: 4px solid $Blue;
+  a {
+    text-decoration: none;
+    color: $DarkGrey;
+  }
+}
+
+.byline {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: .7em;
+  color: #LightGrey;
+  text-transform: none;
+  font-weight: 600;
+  letter-spacing: normal;
+}
+
+
+
+.link-icon {
+	font-size: 1.2em;
+	padding-left: .5em;
+	color: $MiddleGrey;
+	a{
+		text-decoration: none;
+		color: $Blue;
+		border-bottom: none;
+	}
+}
+
+.permalink-icon {
+	font-size: inherit;
+	padding-left: 1em;
+	margin-top: -1em;
+	a {
+		text-decoration: none;
+		border-bottom: none;
+		color: $Blue;
+  }
+}
+
+.header {
+	font-weight: 300;
+	font-size: 1.2em;
+	a {
+		text-decoration: none;
+		border-bottom: none;
+		color: $DarkGrey;
+}
+}
+
+.page {
+	font-weight: 800;
+	font-size: 2.4em;
+	padding-top: 0;
+	color: $Blue;
+	a {
+		text-decoration: none;
+		border-bottom: none;
+  }	
+}
+
+
+
+.link-post-title {
+	font-size: 1.45em;
+	font-weight: 700;
+	a {
+		color: $LinkColor;
+		text-decoration: none;
+		border-bottom: none;
+	}
+}
+
+.post-title {
+	font-size: 2.5em;
+	font-weight: 800;
+	a {
+		color: $Blue;
+		text-decoration: none;
+		letter-spacing: .02em;
+		border-bottom: none;
+	}
+}
+
+.link-excerpt {
+	line-height: 1.9em;
+	padding-bottom: 5em;
+	a {
+	text-decoration: none;
+	color: $Blue;
+	}
+}
+
+.footnotes {
+  a {
+    color: $Blue;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: none;
+  }
+}
+
+sup {
+  color: $Blue;
+  a {
+    color: $Blue;
+    font-weight: 700;
+    font-size: .9em;
+    text-decoration: none;
+    border-bottom: 0 solid;
+  }
+}
+
+.excerpt {
+	line-height: 1.9em;
+	padding-bottom: 2.5em;
+	a {
+	text-decoration: none;
+	color: $Blue;
+	border-bottom:2px solid $Blue;
+	}
+}
+
+.date {
+	font-size: .9em;
+	font-weight: 600;
+	color: $LightGrey;
+	padding-top: .5em;
+	letter-spacing: .02em;
+}
+
+.recent-date {
+	color: $MiddleGrey;
+	font-size: 1em;
+	float: right;
+}
+
+blockquote {
+	color: $MiddleGrey;
+  margin-bottom: 1em;
+  margin-left: 0;
+  padding-left: 1.5em;
+  border-left: 2px solid $Blue;
+  p {
+  display: inline;
+  }
+}
+
+.download-button{
+  font-size: .8em;
+}
+
+
+footer {
+  h1 {
+    font-size: 1.4em;
+    color: red;
+  }
+}

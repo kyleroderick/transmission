@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="144px" height="32px" viewBox="0 0 144 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Untitled</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" id="radialGradient-1">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.2" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="50%" y1="-7.8652%" x2="50%" y2="249.6629%" id="linearGradient-2">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="238.75%" id="linearGradient-3">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="-33.3333%" x2="50%" y2="152.0833%" id="linearGradient-5">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="40%" y1="-140%" x2="40%" y2="98.75%" id="linearGradient-6">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="60%" y1="-140%" x2="60%" y2="98.75%" id="linearGradient-7">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="298.4375%" id="linearGradient-8">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="-200%" x2="50%" y2="100%" id="linearGradient-9">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="-200%" x2="50%" y2="110.9375%" id="linearGradient-10">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="55%" y1="0%" x2="55%" y2="100%" id="linearGradient-11">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-12">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#000000" offset="99.4444%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="controls" sketch:type="MSLayerGroup">
+            <g id="BG"></g>
+            <g transform="translate(98.000000, 2.000000)" sketch:type="MSShapeGroup">
+                <path d="M0.5,5.5 L11.5,5.5" id="Line" stroke="#000000"></path>
+                <path d="M0.5,1.5 L11.5,1.5" id="Line2" stroke="#000000"></path>
+                <path d="M0.5,9.5 L11.5,9.5" id="Line3" stroke="#000000"></path>
+                <path d="M10,9.5 C10,8.6716 10.4477,8 11,8 C11.5523,8 12,8.6716 12,9.5 C12,10.3284 11.5523,11 11,11 C10.4477,11 10,10.3284 10,9.5 L10,9.5 Z" id="Ellipse" fill="#000000"></path>
+                <path d="M6,5.5 C6,4.6716 6.4477,4 7,4 C7.5523,4 8,4.6716 8,5.5 C8,6.3284 7.5523,7 7,7 C6.4477,7 6,6.3284 6,5.5 L6,5.5 Z" id="Ellipse2" fill="#000000"></path>
+                <path d="M10,1.5 C10,0.6716 10.4477,0 11,0 C11.5523,0 12,0.6716 12,1.5 C12,2.3284 11.5523,3 11,3 C10.4477,3 10,2.3284 10,1.5 L10,1.5 Z" id="Ellipse3" fill="#000000"></path>
+            </g>
+            <g id="backlight" transform="translate(81.000000, 3.000000)" sketch:type="MSShapeGroup">
+                <g id="off" transform="translate(2.000000, 18.000000)" stroke="#000000" fill="#333333">
+                    <rect id="Rectangle-path" x="0" y="0" width="10" height="6"></rect>
+                </g>
+                <g id="on">
+                    <path d="M0,5 C0,2.2385 3.134,0 7,0 C10.866,0 14,2.2385 14,5 C14,7.7615 10.866,10 7,10 C3.134,10 0,7.7615 0,5 L0,5 Z" id="Ellipse4" fill="url(#radialGradient-1)"></path>
+                    <rect id="Rectangle-path" stroke="#000000" fill="#333333" x="2" y="2" width="10" height="6"></rect>
+                </g>
+            </g>
+            <g id="loop" transform="translate(66.000000, 2.000000)" sketch:type="MSShapeGroup">
+                <g id="on2">
+                    <path d="M7.795,2.205 C9.2155,2.8785 10.2,4.3234 10.2,6 C10.2,8.3196 8.3196,10.2 6,10.2 C3.6804,10.2 1.8,8.3196 1.8,6 C1.8,4.3234 2.7845,2.8785 4.205,2.205 L2.875,0.875 C1.1501,1.9289 0,3.8306 0,6 C0,9.3138 2.6862,12 6,12 C9.3138,12 12,9.3138 12,6 C12,3.8306 10.8499,1.9289 9.125,0.875 L7.795,2.205 L7.795,2.205 Z" id="Shape" fill="url(#linearGradient-2)"></path>
+                    <path d="M5,0 L0,0 L5,5 L5,0 L5,0 Z" id="Shape" fill="url(#linearGradient-3)"></path>
+                </g>
+                <g id="off2" transform="translate(0.000000, 16.000000)" fill="#A8A8B7">
+                    <path d="M7.795,2.205 C9.2155,2.8785 10.2,4.3234 10.2,6 C10.2,8.3196 8.3196,10.2 6,10.2 C3.6804,10.2 1.8,8.3196 1.8,6 C1.8,4.3234 2.7845,2.8785 4.205,2.205 L2.875,0.875 C1.1501,1.9289 0,3.8306 0,6 C0,9.3138 2.6862,12 6,12 C9.3138,12 12,9.3138 12,6 C12,3.8306 10.8499,1.9289 9.125,0.875 L7.795,2.205 L7.795,2.205 Z" id="Shape"></path>
+                    <path d="M5,0 L0,0 L5,5 L5,0 L5,0 Z" id="Shape"></path>
+                </g>
+            </g>
+            <g id="cc" transform="translate(49.000000, 2.000000)">
+                <rect id="Rectangle-path" stroke="#B0B0B0" sketch:type="MSShapeGroup" x="0" y="0" width="14" height="12"></rect>
+                <text fill="#000000" sketch:type="MSTextLayer" font-family="Arial" font-size="8.95104895" font-weight="normal">
+                    <tspan x="0" y="15">cc</tspan>
+                </text>
+                <path d="M6,5 C1.2813,1.7813 1.063,10.9405 6,8" id="Shape" stroke="#000000" sketch:type="MSShapeGroup"></path>
+                <path d="M11,5 C6.2813,1.7813 6.063,10.9405 11,8" id="Shape" stroke="#000000" sketch:type="MSShapeGroup"></path>
+                <path d="M1,1 L13,1 L13,11 L1,11 L1,1 L1,1 Z M0,0 L0,12 L14,12 L14,0 L0,0 L0,0 Z" id="Shape" fill="url(#linearGradient-4)" sketch:type="MSShapeGroup"></path>
+                <rect id="Rectangle-path" sketch:type="MSShapeGroup" x="0" y="0" width="14" height="12"></rect>
+            </g>
+            <g id="volume" transform="translate(17.000000, 2.000000)">
+                <g id="no%20sound" transform="translate(1.000000, 0.000000)" sketch:type="MSShapeGroup">
+                    <path d="M1,7.0604248 L1,4.94885254 C1,4.61919755 0.950073246,4.13745117 1.45141602,3.51696777 C1.95275879,2.89648437 2.68439369,3 3.01525879,3 L6,3 L6,9 L2.99206543,9 C2.32804362,9 1.89939412,8.96095431 1.451416,8.52478026 C1.00343789,8.08860621 1,7.70694987 1,7.0604248 Z" id="Rectangle-path" fill="url(#linearGradient-5)"></path>
+                    <path d="M7.54260919,0.893026093 C8.02837557,0.602671523 8.37921928,0.61928615 8.65545414,0.750767928 C8.931689,0.882249706 8.99990833,0.957214173 8.99990833,1.42484007 L8.99990833,10.7799933 C8.99990833,11.179547 9.0187564,11.2905671 8.81463257,11.4316852 C8.61050875,11.5728033 8.16671874,11.5205249 7.81095381,11.3123056 C6.49974565,10.544892 3.99898905,8.96406057 3.99898905,8.96406057 L3.99898905,3.01113543 C3.99898905,3.01113543 6.36140248,1.59906254 7.54260919,0.893026093 Z" id="Shape" fill="url(#linearGradient-4)"></path>
+                </g>
+                <g id="sound%20bars" transform="translate(0.000000, 16.000000)">
+                    <g id="no%20sound-2"></g>
+                    <path d="M1,7.0604248 L1,4.94885254 C1,4.61919755 0.950073246,4.13745117 1.45141602,3.51696777 C1.95275879,2.89648437 2.68439369,3 3.01525879,3 L6,3 L6,9 L2.99206543,9 C2.32804362,9 1.89939412,8.96095431 1.451416,8.52478026 C1.00343789,8.08860621 1,7.70694987 1,7.0604248 Z" id="Rectangle-path" fill="url(#linearGradient-5)" sketch:type="MSShapeGroup"></path>
+                    <path d="M7.54260919,0.87421875 C8.02837557,0.5828125 8.37921928,0.599487306 8.65545414,0.731445318 C8.931689,0.86340333 8.99990833,0.938639323 8.99990833,1.40795898 L8.99990833,10.7969971 C8.99990833,11.197998 9.0187564,11.3094202 8.81463257,11.4510495 C8.61050875,11.5926787 8.16671874,11.5402109 7.81095381,11.3312375 C6.49974565,10.5610443 3.99898905,8.97448696 3.99898905,8.97448696 L3.99898905,3 C3.99898905,3 6.36140248,1.5828125 7.54260919,0.87421875 Z" id="Shape" fill="url(#linearGradient-4)" sketch:type="MSShapeGroup"></path>
+                    <path d="M11.6644352,0.408636641 C11.6644352,0.408636641 15.7853592,1.30002888 15.7853592,6.08547655 C15.7853591,10.8709242 11.6644352,11.7623163 11.6644352,11.7623163" id="Shape" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                    <path d="M11.3560262,3.52826904 C11.3560262,3.52826904 12.9618703,4.08656455 12.9618703,6.08547647 C12.9618703,8.08438838 11.3560262,8.64268389 11.3560262,8.64268389" id="Shape-2" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                </g>
+            </g>
+            <g id="play/pause" transform="translate(2.000000, 2.000000)" fill="url(#linearGradient-4)" sketch:type="MSShapeGroup">
+                <g id="play">
+                    <path d="M10.705754,7.77689867 C7.32027343,9.48053772 6.85386609,9.61776997 3.46838557,11.321409 C3.07408415,11.5198291 2.3877648,11.9030191 1.78200838,11.5815431 C1.17625195,11.2600672 1.09092766,10.4386364 1.09092766,10.0417354 C1.09092766,6.68605411 1.09092766,5.96976235 1.09092766,2.61408102 C1.09092766,2.18382652 1.04720475,1.44694183 1.78200837,1.03307714 C2.51681199,0.619212456 3.0711458,0.833178444 3.46838557,1.03307715 C6.27737931,2.44661695 8.40457363,3.69058508 10.705754,4.84858337 C11.4838841,5.24015344 11.9995241,5.57556199 11.9995241,6.31437726 C11.9995241,7.05319253 11.0820496,7.58753942 10.705754,7.77689867 Z" id="Polygon"></path>
+                </g>
+                <g id="pause" transform="translate(1.000000, 16.000000)">
+                    <rect id="Rectangle-path" x="0" y="0" width="4" height="12" rx="2"></rect>
+                    <rect id="Rectangle-path" x="7" y="0" width="4" height="12" rx="2"></rect>
+                </g>
+            </g>
+            <g id="fullscreen" transform="translate(36.000000, 2.000000)" sketch:type="MSShapeGroup">
+                <g id="enter%201">
+                    <path d="M0,0 L5,0 L0,5 L0,0 L0,0 Z" id="Shape" fill="url(#linearGradient-3)"></path>
+                    <path d="M0,12 L5,12 L0,7 L0,12 L0,12 Z" id="Shape" fill="url(#linearGradient-6)"></path>
+                    <path d="M12,0 L7,0 L12,5 L12,0 L12,0 Z" id="Shape" fill="url(#linearGradient-3)"></path>
+                    <path d="M12,12 L7,12 L12,7 L12,12 L12,12 Z" id="Shape" fill="url(#linearGradient-7)"></path>
+                </g>
+                <g id="exit" transform="translate(0.000000, 16.000000)">
+                    <path d="M8,4 L12,4 L8,0 L8,4 L8,4 Z" id="Shape" fill="url(#linearGradient-8)"></path>
+                    <path d="M4,4 L4,0 L0,4 L4,4 L4,4 Z" id="Shape" fill="url(#linearGradient-3)"></path>
+                    <path d="M4,8 L0,8 L4,12 L4,8 L4,8 Z" id="Shape" fill="url(#linearGradient-9)"></path>
+                    <path d="M8,8 L8,12 L12,8 L8,8 L8,8 Z" id="Shape" fill="url(#linearGradient-10)"></path>
+                </g>
+            </g>
+            <g id="stop" transform="translate(115.000000, 3.000000)" fill="url(#linearGradient-11)" sketch:type="MSShapeGroup">
+                <rect id="Rectangle-path" x="0" y="0" width="10" height="10"></rect>
+            </g>
+            <g id="chooser" transform="translate(129.000000, 1.000000)" fill="url(#linearGradient-12)" sketch:type="MSShapeGroup">
+                <path d="M6.2346,5.1522 C7.2551,4.7295 8.4251,5.2141 8.8478,6.2346 C9.2704,7.2551 8.7859,8.425 7.7654,8.8478 C6.7449,9.2705 5.5749,8.7859 5.1522,7.7654 C4.7295,6.7449 5.2141,5.5749 6.2346,5.1522 L6.2346,5.1522 Z M4.2735,0.4176 L7,3.0054 L9.7265,0.4176 L9.8246,4.1754 L13.5824,4.2735 L10.9946,7 L13.5824,9.7265 L9.8246,9.8246 L9.7265,13.5824 L7,10.9946 L4.2735,13.5824 L4.1754,9.8246 L0.4176,9.7265 L3.0054,7 L0.4176,4.2735 L4.1754,4.1754 L4.2735,0.4176 L4.2735,0.4176 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
