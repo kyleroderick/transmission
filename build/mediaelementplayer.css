@@ -275,7 +275,7 @@
 }
 
 .mejs-controls .mejs-time-rail .mejs-time-current {
-	background: #FEC14B;
+	background: #EEB23E;
 	width: 6px;
 }
 
@@ -296,7 +296,7 @@
 .mejs-controls .mejs-time-rail .mejs-time-float {
 	position: absolute;
 	display: none;
-	background: #FEC14B;
+	background: #EEB23E;
 	font-size: .8em;
 	width: 36px;
 	height: 17px;
@@ -320,8 +320,8 @@
 	width: 0;
 	height: 0;
 	line-height: 0;
-	border: solid 5px #FEC14B;
-	border-color: #FEC14B transparent transparent transparent;
+	border: solid 5px #EEB23E;
+	border-color: #EEB23E transparent transparent transparent;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
@@ -474,7 +474,7 @@
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
-	background: #FEC14B;
+	background: #EEB23E;
 }
 
 .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-handle {

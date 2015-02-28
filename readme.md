@@ -1,2 +1,2 @@
-# kyleroderick
-Siteleaf theme for kyleroderick.com
+# Transmission Siteleaf Theme
+Siteleaf theme for transmission.am

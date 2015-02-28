@@ -33,7 +33,8 @@ p {
   line-height: 1.8em; }
   p a {
     text-decoration: none;
-    color: #FFAF00; }
+    color: #EEB23E;
+    font-weight: 600; }
 
 hr {
   margin-top: 2em;
@@ -62,7 +63,7 @@ h3 {
   h3 a {
     text-decoration: none;
     border-bottom: none;
-    color: #FFAF00; }
+    color: #EEB23E; }
 
 h4 {
   font-weight: 600;
@@ -145,7 +146,7 @@ h5 {
   font-size: 1.45em;
   font-weight: 700; }
   .link-post-title a {
-    color: #FFAF00;
+    color: #EEB23E;
     text-decoration: none;
     border-bottom: none; }
 
@@ -262,7 +263,7 @@ header {
   width: 140pt;
   margin: 0px auto 0px auto;
   vertical-align: middle;
-  color: #FEC14B; }
+  color: #EEB23E; }
   .logo img {
     width: 140pt; }
 
@@ -287,7 +288,7 @@ nav {
     border-bottom: none; }
   nav .selected {
     color: #545047;
-    border-bottom: 2pt solid #FEC14B; }
+    border-bottom: 2pt solid #EEB23E; }
 
 nav a {
   color: #545047;
