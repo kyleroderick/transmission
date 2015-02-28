@@ -30,21 +30,12 @@ body {
   font-size: 17px;
 	font-weight: 400;
 	color: $DarkGrey;
+	outline: none;
 	a {
     outline : none;
 	}
 }
 
-article body{
-  a {
-	text-decoration: none;
-	color: $DarkGrey;
-	border-bottom:2px solid #FFAF01;
-	}
-	ul li {
-  	padding-top: .5em;
-	}
-}
 
 // Typography
 
@@ -77,12 +68,17 @@ h1 {
 }
 
 h2 {
-  padding-top: .5em;
   	a {
 		text-decoration: none;
 		border-bottom: none;
 		}
 }
+
+h2.page {
+  padding: none;
+  color: red;
+}
+
 
 h3 {
 	font-size: 2em;
@@ -106,14 +102,15 @@ h4 {
 }
 
 h5 {
-  font-weight: 700;
+  font-weight: 800;
   font-size: 1em;
   line-height: 1.8em;
   text-transform: uppercase;
   letter-spacing: .02em;
+  color: $MiddleGrey;
   a {
     text-decoration: none;
-    color: $DarkGrey;
+    color: $LinkColor;
     border-bottom: none;
     }
 }
