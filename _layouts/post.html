@@ -1,4 +1,6 @@
 <div id="contain">
+  
+  <h5>Latest Episode</h5>
 
   {% for post in current.posts limit:1%}
   {% if post.meta.link %}
@@ -31,6 +33,10 @@
       </audio>
       <p class="download-button">Download: <a href="{{{post.meta['Audio URL']}}"><b>MP3</b></a></h4>
       <hr>
+    {% endif %}
+    
+    {% if {{post.meta['Audio URL']}} %}
+    <div class="sponsor">{{ post.meta.Sponsor }}</div>
     {% endif %}
     
     <div class="excerpt">{{ post.excerpt }}</div>

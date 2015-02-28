@@ -17,29 +17,29 @@ body {
   -webkit-font-smoothing: antialiased;
   font-size: 17px;
   font-weight: 400;
-  color: #111; }
+  color: #545047; }
   body a {
     outline: none; }
 
 article body a {
   text-decoration: none;
-  color: #495160;
-  border-bottom: 2px solid #495160; }
+  color: #545047;
+  border-bottom: 2px solid #FFAF01; }
 article body ul li {
   padding-top: .5em; }
 
 p {
+  color: black;
   line-height: 1.8em; }
   p a {
     text-decoration: none;
-    color: #495160;
-    border-bottom: 2px solid #495160; }
+    color: #FFAF00; }
 
 hr {
   margin-top: 2em;
   border: 0;
   height: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
 
 h1 {
@@ -62,14 +62,25 @@ h3 {
   h3 a {
     text-decoration: none;
     border-bottom: none;
-    color: #495160; }
+    color: #FFAF00; }
 
 h4 {
   font-weight: 600;
   line-height: 1.8em; }
   h4 a {
     text-decoration: none;
-    color: #111;
+    color: #545047;
+    border-bottom: none; }
+
+h5 {
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: .02em; }
+  h5 a {
+    text-decoration: none;
+    color: #545047;
     border-bottom: none; }
 
 .related-header {
@@ -81,16 +92,16 @@ h4 {
   list-style-type: none;
   padding-left: 1em;
   font-weight: 600;
-  border-left: 4px solid #495160; }
+  border-left: 4px solid #545047; }
   .related-list a {
     text-decoration: none;
-    color: #111; }
+    color: #545047; }
 
 .byline {
   margin-left: auto;
   margin-right: auto;
   font-size: .7em;
-  color: #LightGrey;
+  color: #BCBCBC;
   text-transform: none;
   font-weight: 600;
   letter-spacing: normal; }
@@ -101,7 +112,7 @@ h4 {
   color: #888; }
   .link-icon a {
     text-decoration: none;
-    color: #495160;
+    color: #545047;
     border-bottom: none; }
 
 .permalink-icon {
@@ -111,7 +122,7 @@ h4 {
   .permalink-icon a {
     text-decoration: none;
     border-bottom: none;
-    color: #495160; }
+    color: #545047; }
 
 .header {
   font-weight: 300;
@@ -119,13 +130,13 @@ h4 {
   .header a {
     text-decoration: none;
     border-bottom: none;
-    color: #111; }
+    color: #545047; }
 
 .page {
   font-weight: 800;
   font-size: 2.4em;
   padding-top: 0;
-  color: #495160; }
+  color: #545047; }
   .page a {
     text-decoration: none;
     border-bottom: none; }
@@ -134,7 +145,7 @@ h4 {
   font-size: 1.45em;
   font-weight: 700; }
   .link-post-title a {
-    color: #495160;
+    color: #FFAF00;
     text-decoration: none;
     border-bottom: none; }
 
@@ -142,9 +153,9 @@ h4 {
   font-size: 2.5em;
   font-weight: 800; }
   .post-title a {
-    color: #495160;
+    color: #545047;
     text-decoration: none;
-    letter-spacing: .02em;
+    letter-spacing: .01em;
     border-bottom: none; }
 
 .link-excerpt {
@@ -152,18 +163,18 @@ h4 {
   padding-bottom: 5em; }
   .link-excerpt a {
     text-decoration: none;
-    color: #495160; }
+    color: #545047; }
 
 .footnotes a {
-  color: #495160;
+  color: #545047;
   font-weight: bold;
   text-decoration: none;
   border-bottom: none; }
 
 sup {
-  color: #495160; }
+  color: #545047; }
   sup a {
-    color: #495160;
+    color: #545047;
     font-weight: 700;
     font-size: .9em;
     text-decoration: none;
@@ -174,8 +185,8 @@ sup {
   padding-bottom: 2.5em; }
   .excerpt a {
     text-decoration: none;
-    color: #495160;
-    border-bottom: 2px solid #495160; }
+    color: #545047;
+    border-bottom: 2px solid #545047; }
 
 .date {
   font-size: .9em;
@@ -194,7 +205,7 @@ blockquote {
   margin-bottom: 1em;
   margin-left: 0;
   padding-left: 1.5em;
-  border-left: 2px solid #495160; }
+  border-left: 2px solid #545047; }
   blockquote p {
     display: inline; }
 
@@ -228,12 +239,12 @@ html {
 
 #nav-contain {
   height: 200pt;
-  max-width: 450pt;
+  max-width: 512pt;
   margin-left: 10pt;
   padding: 0px 10pt 0px 10pt; }
 
 #contain {
-  max-width: 450pt;
+  max-width: 512pt;
   margin: 50px auto;
   padding: 0px 20pt 150pt 20pt; }
   #contain img {
@@ -244,19 +255,20 @@ header {
   padding-top: 20pt;
   vertical-align: middle;
   margin: 10pt auto 10pt auto;
-  border-bottom: 1pt solid #BCBCBC;
-  width: 450pt; }
+  border-bottom: 1pt solid #F3F3F3;
+  width: 512pt; }
 
 .logo {
   width: 140pt;
   margin: 0px auto 0px auto;
-  vertical-align: middle; }
+  vertical-align: middle;
+  color: #FEC14B; }
   .logo img {
     width: 140pt; }
 
 nav {
   font-size: .75em;
-  width: 450pt;
+  width: 512pt;
   font-weight: 800;
   letter-spacing: .1em;
   text-transform: uppercase;
@@ -274,10 +286,11 @@ nav {
     color: #888;
     border-bottom: none; }
   nav .selected {
-    color: #495160; }
+    color: #545047;
+    border-bottom: 2pt solid #FEC14B; }
 
 nav a {
-  color: black;
+  color: #545047;
   text-decoration: none; }
 
 .img {

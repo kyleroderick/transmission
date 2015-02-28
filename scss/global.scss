@@ -12,14 +12,14 @@ html {
 
 #nav-contain {
   height: 200pt;
-  max-width: 450pt;
+  max-width: 512pt;
   margin-left: 10pt;
   padding: 0px 10pt 0px 10pt;
 }
 
 
 #contain {
-  max-width: 450pt;
+  max-width: 512pt;
   margin: 50px auto;
   padding: 0px 20pt 150pt 20pt;
   img {
@@ -33,14 +33,15 @@ header {
   padding-top: 20pt;
   vertical-align: middle;
   margin: 10pt auto 10pt auto;
-  border-bottom: 1pt solid $LightGrey;
-  width: 450pt;
+  border-bottom: 1pt solid #F3F3F3;
+  width: 512pt;
 }
 
 .logo {
   width: 140pt;
   margin: 0px auto 0px auto;
   vertical-align: middle;
+  color: $Yellow;
   img {
     width: 140pt;
   }
@@ -48,7 +49,7 @@ header {
 
 nav {
   font-size: .75em;
-  width: 450pt;
+  width: 512pt;
 	font-weight: 800;
 	letter-spacing: .1em;
 	text-transform: uppercase;
@@ -69,12 +70,13 @@ nav {
 		border-bottom:none;
 	}
 	.selected {
-  	color: $Blue;
+  	color: $DarkGrey;
+  	border-bottom: 2pt solid $Yellow;
 	}
 }
 
 nav a {
-    color: black;
+    color: $DarkGrey;
     text-decoration: none;
 }
 
