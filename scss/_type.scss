@@ -24,7 +24,6 @@
 body {
   position: relative;
   margin: 0;
-  padding-bottom: 4rem;
   min-height: 100%;
   @include sans;
   font-size: 17px;
@@ -43,6 +42,7 @@ body {
 p {
   color: black;
   line-height: 1.8em;
+  margin-bottom: 1.5em;
 	a {
 	text-decoration: none;
 	color: $LinkColor;
@@ -50,8 +50,31 @@ p {
 	}
 }
 
+ul {
+  color: $DarkGrey;
+  margin-bottom: 3em;
+  a {
+    text-decoration: none;
+	  color: $LinkColor;
+  }
+  code {
+    font-family: monospace;
+    font-weight: 700;
+    color: Black;
+  }
+}
+
+
+li {
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
+
+	
 hr {
   margin-top: 2em;
+  margin-bottom: 2em;
   border: 0;
   height: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
@@ -75,8 +98,8 @@ h2 {
 }
 
 h2.page {
-  padding: none;
-  color: red;
+  margin-bottom: .2em;
+  color: $DarkGrey;
 }
 
 
@@ -92,8 +115,12 @@ h3 {
 }
 
 h4 {
-  font-weight: 600;
-  line-height: 1.8em;
+  font-weight: 800;
+  line-height: 1.1em;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+  color: $MiddleGrey;
+  margin-bottom: 1.5em;
   a {
     text-decoration: none;
     color: $DarkGrey;
@@ -102,6 +129,21 @@ h4 {
 }
 
 h5 {
+  font-weight: 800;
+  font-size: 1em;
+  line-height: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+  margin-bottom: 1em;
+  color: $MiddleGrey;
+  a {
+    text-decoration: none;
+    color: $LinkColor;
+    border-bottom: none;
+    }
+}
+
+h6 {
   font-weight: 800;
   font-size: 1em;
   line-height: 1.8em;
@@ -254,8 +296,9 @@ sup {
 	font-size: .9em;
 	font-weight: 600;
 	color: $LightGrey;
-	padding-top: .5em;
+	padding-top: 1em;
 	letter-spacing: .02em;
+  margin-bottom: 1.3em;
 }
 
 .recent-date {
@@ -277,12 +320,19 @@ blockquote {
 
 .download-button{
   font-size: .8em;
+  color: $DarkGrey;
+  font-weight: 600;
+  padding-top: 1em;
+  a {
+    font-weight: 700;
+  }
 }
 
 
 footer {
-  h1 {
-    font-size: 1.4em;
+  h4 {
+    font-size: 1.3em;
+    font-weight: 800;
     color: red;
   }
 }

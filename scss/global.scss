@@ -61,7 +61,7 @@ html {
 }
 
 #nav-contain {
-  height: 200pt;
+  height: auto;
   max-width: 512pt;
   margin-left: 10pt;
   padding: 0px 10pt 0px 10pt;
@@ -90,6 +90,7 @@ header {
 .logo {
   width: 140pt;
   margin: 0px auto 0px auto;
+  padding-bottom: 18pt;
   vertical-align: middle;
   color: $Yellow;
   img {
@@ -110,7 +111,8 @@ nav {
 	li {
   	min-width: 30pt;
 		display:inline;
-		padding-right: 2em;
+		padding-right: 1em;
+		padding-left: 1em;
 	}
 	ul {
   	vertical-align: center;
@@ -160,19 +162,69 @@ small {
 }
 
 
+.left-half {
+  width: 50%;
+  padding: 0px 10pt 0px 10pt;
+}
+
+
+.right-half {
+  width: 50%;
+  padding: 0px 10pt 0px 10pt;
+}
+
+
+
 
 footer {
-  height: 150pt;
+  clear: both;
   position: absolute;
-  right: 0;
   bottom: 0;
   left: 0;
-  margin-top: 200pt;
-  padding-bottom: 0;
-  margin-bottom: 0;
-  background-color: #efefef;
-  text-align: center;
+  height: 110pt;
+  background: $Yellow;
+  width: 100%;
+  font-size: .75em;
+	font-weight: 800;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	text-align: center;
+	vertical-align: center;
+	display: inline-block;
+	li {
+  	min-width: 30pt;
+		display:inline;
+		padding-right: 1em;
+		padding-left: 1em;
+	}
+	ul {
+  	vertical-align: center;
+  	margin-bottom: 1.5em;
+	}
+	a {
+		text-decoration: none;
+		color: $DarkGrey;
+		border-bottom:none;
+	}
+	p {
+  	color: rgba(0, 0, 0, 0.3);
+  	margin-bottom: 2em;
+	}
 }
+
+#footer-contain {
+  height: auto;
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 512pt;
+  padding: 0px 10pt 0px 10pt;
+  p {
+  	margin-bottom: 2em;
+	}
+
+}
+
 
 
 

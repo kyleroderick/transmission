@@ -1,26 +1,22 @@
 <footer>
   
-  <div class="left-half">
-    <h1>About</h1>
-    {{site.meta['About']}}
-  </div>
+  <div id="footer-contain">
   
-  <div class="right-half">
-    <h1>Contact</h1>
-    {{site.meta['Contact']}}
-  </div>
-  
-  
-  <ul>
-  {% for page in site.pages %}
-    <li><a href="{{page.url}}"{% if page.url == url %} class="selected"{% endif %}>{{page.title}}</a></li>
-  {% endfor %}
-  <li><a href="{{site.meta['FeedPress']}}">RSS <i class="icon-rss"></i></a></li>
-  </ul>
+    <ul>
+    <li><a href="{{site.meta['iTunes']}}">iTunes</a></li>
+    <li><a href="{{site.meta['Twitter']}}"><i class="icon-twitter"></i></a></li>
+    <li><a href="{{site.meta['Instagram']}}"><i class="icon-instagram"></i></a></li>
+    <li><a href="{{site.meta['Facebook']}}"><i class="icon-facebook"></i></a></li>
+    <li><a href="{{site.meta['FeedPress']}}">RSS <i class="icon-rss"></i></a></li>
+    </ul>
 
   
-    Made with &#9829; in {{site.meta['Location']}}<br>
-    &copy; {{ site.date | date: "%Y"  }} {{ author.fullname }}
+    <p>Made with <i class="icon-heart"></i> in {{site.meta['Location']}}<br>
+    &copy; {{ site.date | date: "%Y"  }} {{ site.meta['Copyright'] }}
+    </p>
+    
+  </div>
+  
 </footer>
 
 
