@@ -70,7 +70,11 @@ li {
   margin-bottom: 1em;
 }
 
-
+code {
+    font-family: monospace;
+    font-weight: 700;
+    color: Black;
+  }
 	
 hr {
   margin-top: 2em;
@@ -84,6 +88,7 @@ hr {
 h1 {
   font-weight: 700;
 	line-height: normal;
+	  		font-size: 3em;
 	a {
 		text-decoration: none;
 		border-bottom: none;
@@ -91,16 +96,26 @@ h1 {
 }
 
 h2 {
+  font-weight: 700;
+	line-height: normal;
+  font-size: 1.3em;
+  color: $DarkGrey;
   	a {
 		text-decoration: none;
 		border-bottom: none;
+		  color: $DarkGrey;
 		}
 }
 
 h2.page {
   margin-bottom: .2em;
   color: $DarkGrey;
+  	a {
+		text-decoration: none;
+		border-bottom: none;
+		}
 }
+
 
 
 h3 {

@@ -82,6 +82,11 @@ li {
   line-height: 1.5em;
   margin-bottom: 1em; }
 
+code {
+  font-family: monospace;
+  font-weight: 700;
+  color: Black; }
+
 hr {
   margin-top: 2em;
   margin-bottom: 2em;
@@ -92,18 +97,28 @@ hr {
 
 h1 {
   font-weight: 700;
-  line-height: normal; }
+  line-height: normal;
+  font-size: 3em; }
   h1 a {
     text-decoration: none;
     border-bottom: none; }
 
-h2 a {
-  text-decoration: none;
-  border-bottom: none; }
+h2 {
+  font-weight: 700;
+  line-height: normal;
+  font-size: 1.3em;
+  color: #545047; }
+  h2 a {
+    text-decoration: none;
+    border-bottom: none;
+    color: #545047; }
 
 h2.page {
   margin-bottom: .2em;
   color: #545047; }
+  h2.page a {
+    text-decoration: none;
+    border-bottom: none; }
 
 h3 {
   font-size: 2em;
