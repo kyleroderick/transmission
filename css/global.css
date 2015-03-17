@@ -319,13 +319,13 @@ html {
 
 #contain {
   max-width: 512pt;
-  margin: 50px auto;
+  margin: 50px auto 0px auto;
   padding: 0px 20pt 150pt 20pt; }
   #contain img {
     max-width: 100%; }
 
 header {
-  height: 100pt;
+  height: 130pt;
   padding-top: 20pt;
   vertical-align: middle;
   margin: 10pt auto 10pt auto;
@@ -333,13 +333,13 @@ header {
   max-width: 512pt; }
 
 .logo {
-  width: 140pt;
+  width: 180pt;
   margin: 0px auto 0px auto;
   padding-bottom: 18pt;
   vertical-align: middle;
   color: #EEB23E; }
   .logo img {
-    width: 140pt; }
+    width: 180pt; }
 
 nav {
   width: 100%;
