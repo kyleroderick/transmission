@@ -64,7 +64,7 @@ p {
   margin-bottom: 1.5em; }
   p a {
     text-decoration: none;
-    color: #EEB23E;
+    color: #A67627;
     font-weight: 600; }
 
 ul {
@@ -72,7 +72,7 @@ ul {
   margin-bottom: 3em; }
   ul a {
     text-decoration: none;
-    color: #EEB23E; }
+    color: #A67627; }
   ul code {
     font-family: monospace;
     font-weight: 700;
@@ -127,7 +127,7 @@ h3 {
   h3 a {
     text-decoration: none;
     border-bottom: none;
-    color: #EEB23E; }
+    color: #A67627; }
 
 h4 {
   font-weight: 800;
@@ -151,7 +151,7 @@ h5 {
   color: #C3C3C3; }
   h5 a {
     text-decoration: none;
-    color: #EEB23E;
+    color: #A67627;
     border-bottom: none; }
 
 h6 {
@@ -163,7 +163,7 @@ h6 {
   color: #C3C3C3; }
   h6 a {
     text-decoration: none;
-    color: #EEB23E;
+    color: #A67627;
     border-bottom: none; }
 
 .related-header {
@@ -228,7 +228,7 @@ h6 {
   font-size: 1.45em;
   font-weight: 700; }
   .link-post-title a {
-    color: #EEB23E;
+    color: #A67627;
     text-decoration: none;
     border-bottom: none; }
 
@@ -323,12 +323,21 @@ div.audio-player {
   font-size: 1em;
   color: #ececec; }
 
+@media (min-width: 10px) and (max-width: 512pt) {
+  #nav-contain {
+    width: 100% !important; }
+
+  #contain {
+    width: 80% !important; }
+
+  header {
+    width: 100% !important; } }
 html {
   height: 100%; }
 
 #nav-contain {
   height: auto;
-  max-width: 512pt;
+  width: 700pt;
   margin-left: 10pt;
   padding: 0px 10pt 0px 10pt; }
 
@@ -345,7 +354,7 @@ header {
   vertical-align: middle;
   margin: 10pt auto 10pt auto;
   border-bottom: 1pt solid #F3F3F3;
-  max-width: 512pt; }
+  width: 512pt; }
 
 .logo {
   width: 180pt;
