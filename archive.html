@@ -1,0 +1,32 @@
+<!-- HTML Header -->
+{% include 'includes/doc' %}
+
+<!-- Google Analytics -->
+{% include 'includes/analytics' %}
+
+<!-- Typekit Code -->
+{% include 'includes/typekit' %}
+
+<!-- Page -->
+{% include 'includes/header' %}
+
+<div id="contain">
+{% assign posts_by_year = posts | group_by:"year" %}
+
+{% for year in posts_by_year %}
+  <h3>{{year.name}}</h3><br>
+  {% assign posts_by_month = year.items | group_by:"month" %}
+  {% for month in posts_by_month %}
+    <h4>{{month.items.first.date | date:"%B"}}</h4>
+    <ul>
+    {% for post in month.items %}
+      <li><a href="{{post.url}}">{{post.title}}</a></li>
+    {% endfor %}
+    </ul>
+  {% endfor %}
+{% endfor %}
+
+</div>
+
+{% include 'includes/footer' %}
+
