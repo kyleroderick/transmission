@@ -424,7 +424,7 @@ footer {
   position: absolute;
   bottom: 0;
   left: 0;
-  height: 110pt;
+  height: 140pt;
   background: #EEB23E;
   width: 100%;
   font-size: .75em;
@@ -452,7 +452,7 @@ footer {
 
 #footer-contain {
   height: auto;
-  margin-top: 3em;
+  margin-top: 4em;
   margin-left: auto;
   margin-right: auto;
   max-width: 512pt;
