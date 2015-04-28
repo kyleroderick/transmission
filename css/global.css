@@ -305,6 +305,8 @@ footer h4 {
   font-size: 1.3em;
   font-weight: 800;
   color: red; }
+footer a {
+  font-weight: 800; }
 
 div.audio-player {
   position: relative;
