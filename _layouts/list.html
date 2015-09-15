@@ -5,15 +5,15 @@
     <span class="link-post-title"><a href="{{ post.meta.link }}">{{ post.title }}</a></span>
     <span class="link-icon"><i class="icon-chevron-right"></i></span>
     <br>
-    <div class="date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time><span class="permalink-icon"><a href="{{ post.url }}"><i class="icon-link"></i></a></span></div>
+    <div class="date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %e, %Y" }}</time><span class="permalink-icon"><a href="{{ post.url }}"><i class="icon-link"></i></a></span></div>
 
-    {% if post.taxonomy.Tags %}
-    <ul class="list_horizontal">
-    {% for tag in post.taxonomy.Tags | limit: 5 %}
-      <li><a class="list_horizontal" href="{{tag.url}}">{{tag.value}}</a></li>
-    {% endfor %}
-    </ul>
-    {% endif %}
+  {% if post.taxonomy.Tags %}
+  <ul class="list_horizontal">
+  {% for tag in post.taxonomy.Tags | limit: 5 %}
+    <li><a class="list_horizontal" href="{{tag.url}}">{{tag.value}}</a></li>
+  {% endfor %}
+  </ul>
+  {% endif %}
 
     {% if {{post.meta['Audio URL']}} %}
       <audio class="audio-player" id="player" src="{{post.meta['Audio URL']}}" type="audio/mp3" controls="controls" style="width:100%; height:100%;">
@@ -31,15 +31,15 @@
   {% unless post.meta.link %}
     <span class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></span>
     <br>
-    <div class="date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time><span class="permalink-icon"><a href="{{ post.url }}"><i class="icon-link"></i></a></span></div>
+    <div class="date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %e, %Y" }}</time><span class="permalink-icon"><a href="{{ post.url }}"><i class="icon-link"></i></a></span></div>
 
-    {% if post.taxonomy.Tags %}
-    <ul class="list_horizontal">
-    {% for tag in post.taxonomy.Tags | limit: 5 %}
-      <li><a class="list_horizontal" href="{{tag.url}}">{{tag.value}}</a></li>
-    {% endfor %}
-    </ul>
-    {% endif %}
+  {% if post.taxonomy.Tags %}
+  <ul class="list_horizontal">
+  {% for tag in post.taxonomy.Tags | limit: 5 %}
+    <li><a class="list_horizontal" href="{{tag.url}}">{{tag.value}}</a></li>
+  {% endfor %}
+  </ul>
+  {% endif %}
 
     {% if {{post.meta['Audio URL']}} %}
       <audio class="audio-player" id="player" src="{{post.meta['Audio URL']}}" type="audio/mp3" controls="controls" style="width:100%; height:100%;">

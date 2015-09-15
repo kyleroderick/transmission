@@ -1,5 +1,5 @@
 <div id="contain">
-  
+
   <h5>Latest Episode</h5>
 
   {% for post in current.posts limit:1%}
@@ -8,17 +8,25 @@
     <span class="link-icon"><i class="icon-chevron-right"></i></span>
     <br>
     <div class="date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time><span class="permalink-icon"><a href="{{ post.url }}"><i class="icon-link"></i></a></span></div>
-    
+
+    {% if post.taxonomy.Tags %}
+    <ul class="list_horizontal">
+    {% for tag in post.taxonomy.Tags | limit: 5 %}
+      <li><a class="list_horizontal" href="{{tag.url}}">{{tag.value}}</a></li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+
   {% if {{post.meta['Episode Number']}} %}
-    <audio class="audio-player" id="player" src="{{site.meta['Feed Press URL']}}{{meta['Episode Number']}}.mp3" type="audio/mp3" controls="controls" style="width:100%; height:100%;">
+    <audio class="audio-player" id="player" src="{{site.meta['Feed Press URL']}}{{post.meta['Episode Number']}}.mp3" type="audio/mp3" controls="controls" style="width:100%; height:100%;">
     Your browser does not support the audio element.
     </audio>
-    <p class="download-button">Download: <a href="{{site.meta['Feed Press URL']}}{{meta['Episode Number']}}.mp3">MP3</a></h4>
+    <p class="download-button">Download: <a href="{{site.meta['Feed Press URL']}}{{post.meta['Episode Number']}}.mp3">MP3</a></h4>
   {% endif %}
 
 
 
-    
+
     <div class="link-excerpt">{{ post.excerpt }}</div>
   {% endif %}
 
@@ -26,19 +34,19 @@
     <span class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></span>
     <br>
     <div class="date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time><span class="permalink-icon"><a href="{{ post.url }}"><i class="icon-link"></i></a></span></div>
-    
+
     {% if {{post.meta['Episode Number']}} %}
-      <audio class="audio-player" id="player" src="{{site.meta['Feed Press URL']}}{{meta['Episode Number']}}.mp3" type="audio/mp3" controls="controls" style="width:100%; height:100%;">
+      <audio class="audio-player" id="player" src="{{site.meta['Feed Press URL']}}{{post.meta['Episode Number']}}.mp3" type="audio/mp3" controls="controls" style="width:100%; height:100%;">
       Your browser does not support the audio element.
       </audio>
-      <p class="download-button">Download: <a href="{{site.meta['Feed Press URL']}}{{meta['Episode Number']}}.mp3">MP3</a></h4>
+      <p class="download-button">Download: <a href="{{site.meta['Feed Press URL']}}{{post.meta['Episode Number']}}.mp3">MP3</a></h4>
     {% endif %}
 
-    
+
     {% if {{post.meta['Audio URL']}} %}
     <div class="sponsor">{{ post.meta.Sponsor }}</div>
     {% endif %}
-    
+
     <div class="excerpt">{{ post.excerpt }}</div>
   {% endunless %}
 

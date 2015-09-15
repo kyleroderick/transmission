@@ -271,6 +271,27 @@ sup {
     color: #545047;
     border-bottom: 2px solid #545047; }
 
+.list_horizontal {
+  color: #545047;
+  text-transform: uppercase;
+  list-style: none;
+  margin-left: 0 !important;
+  margin-top: 0;
+  margin-bottom: 2em;
+  font-size: .9em; }
+  .list_horizontal a {
+    color: white;
+    background: #545047;
+    padding: 2pt 6pt 2pt 6pt;
+    font-weight: 800;
+    letter-spacing: .03em;
+    font-size: .8em;
+    text-decoration: none;
+    border-radius: 4pt; }
+  .list_horizontal li {
+    display: inline;
+    padding-right: .3em; }
+
 .date {
   font-size: .9em;
   font-weight: 600;

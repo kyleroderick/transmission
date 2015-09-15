@@ -75,7 +75,7 @@ code {
     font-weight: 700;
     color: Black;
   }
-	
+
 hr {
   margin-top: 2em;
   margin-bottom: 2em;
@@ -179,7 +179,7 @@ h6 {
 
 .related-list {
   padding: 0;
-  
+
   list-style-type: none;
   padding-left: 1em;
   font-weight: 600;
@@ -242,7 +242,7 @@ h6 {
 	a {
 		text-decoration: none;
 		border-bottom: none;
-  }	
+  }
 }
 
 
@@ -306,6 +306,32 @@ sup {
 	border-bottom:2px solid $DarkGrey;
 	}
 }
+
+.list_horizontal {
+  color: $DarkGrey;
+  text-transform: uppercase;
+  list-style: none;
+  margin-left: 0 !important;
+  margin-top: 0;
+  margin-bottom: 2em;
+  font-size: .9em;
+  a {
+    color: white;
+    background: $DarkGrey;
+    padding: 2pt 6pt 2pt 6pt;
+    font-weight: 800;
+  letter-spacing: .03em;
+    font-size: .8em;
+    text-decoration: none;
+    border-radius: 4pt;
+  }
+  li {
+    display:inline;
+    padding-right: .3em;
+  }
+}
+
+
 
 .date {
 	font-size: .9em;
