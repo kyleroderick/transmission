@@ -53,6 +53,7 @@ p {
 ul {
   color: $DarkGrey;
   margin-bottom: 3em;
+  list-style-type:none;
   a {
     text-decoration: none;
 	  color: $LinkColor;
@@ -79,6 +80,15 @@ code {
 hr {
   margin-top: 2em;
   margin-bottom: 2em;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+hr .compact{
+  margin-top: 1em;
+  margin-bottom: 1em;
   border: 0;
   height: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
@@ -261,6 +271,7 @@ h6 {
 .post-title {
 	font-size: 2.0em;
 	font-weight: 800;
+  padding-top: .4em;
 	a {
 		color: $DarkGrey;
 		text-decoration: none;
@@ -300,7 +311,7 @@ sup {
 
 .excerpt {
 	line-height: 1.9em;
-	padding-bottom: 2.5em;
+	padding-bottom: .75em;
 	a {
 	text-decoration: none;
 	color: $DarkGrey;
@@ -328,7 +339,9 @@ sup {
   }
   li {
     display:inline;
+    line-height: 2em;
     padding-right: .3em;
+    white-space:pre;
   }
 }
 

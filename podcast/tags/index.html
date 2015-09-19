@@ -9,7 +9,14 @@
 
 <!-- Page -->
 {% include 'includes/header' %}
-{% include 'layouts/episode' %}
+{% assign sorted_tags = site.pages['podcast'].taxonomy['tags'] | sort:'value' %}
+
+<div id="contain">
+<ul class="list_horizontal">
+    {% for tag in sorted_tags %}
+    <li><a href="{{tag.url}}">{{tag.value}}</a></li>
+    {% endfor %}
+</ul>
 
 <!--This feature is broken right now.
 {% include 'includes/related' %}

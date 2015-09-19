@@ -70,7 +70,8 @@ p {
 
 ul {
   color: #545047;
-  margin-bottom: 3em; }
+  margin-bottom: 3em;
+  list-style-type: none; }
   ul a {
     text-decoration: none;
     color: #A67627; }
@@ -91,6 +92,14 @@ code {
 hr {
   margin-top: 2em;
   margin-bottom: 2em;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+
+hr .compact {
+  margin-top: 1em;
+  margin-bottom: 1em;
   border: 0;
   height: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
@@ -236,7 +245,8 @@ h6 {
 
 .post-title {
   font-size: 2.0em;
-  font-weight: 800; }
+  font-weight: 800;
+  padding-top: .4em; }
   .post-title a {
     color: #545047;
     text-decoration: none;
@@ -267,7 +277,7 @@ sup {
 
 .excerpt {
   line-height: 1.9em;
-  padding-bottom: 2.5em; }
+  padding-bottom: .75em; }
   .excerpt a {
     text-decoration: none;
     color: #545047;
@@ -292,7 +302,9 @@ sup {
     border-radius: 4pt; }
   .list_horizontal li {
     display: inline;
-    padding-right: .3em; }
+    line-height: 2em;
+    padding-right: .3em;
+    white-space: pre; }
 
 .date {
   font-size: .9em;
