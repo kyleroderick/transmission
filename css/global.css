@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -7,6 +7,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   margin: 0;
   padding: 0;
   border: 0;
+  margin: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline; }
@@ -43,7 +44,7 @@ table {
   font-weight: normal;
   font-style: normal;
   display: inline-block;
-  color: red;
+  color: yellow;
   line-height: 1; }
 body {
   position: relative;
@@ -107,6 +108,7 @@ h2 {
   font-weight: 700;
   line-height: normal;
   font-size: 1.3em;
+  margin-bottom: .1em;
   color: #545047; }
   h2 a {
     text-decoration: none;
@@ -114,7 +116,6 @@ h2 {
     color: #545047; }
 
 h2.page {
-  margin-bottom: .2em;
   color: #545047; }
   h2.page a {
     text-decoration: none;
@@ -160,7 +161,8 @@ h6 {
   line-height: 1.8em;
   text-transform: uppercase;
   letter-spacing: .02em;
-  color: #C3C3C3; }
+  color: #C3C3C3;
+  margin-bottom: .5em; }
   h6 a {
     text-decoration: none;
     color: #A67627;
@@ -217,7 +219,7 @@ h6 {
 
 .page {
   font-weight: 800;
-  font-size: 2.4em;
+  font-size: 2.0em;
   padding-top: 0;
   color: #545047; }
   .page a {
@@ -233,7 +235,7 @@ h6 {
     border-bottom: none; }
 
 .post-title {
-  font-size: 2.5em;
+  font-size: 2.0em;
   font-weight: 800; }
   .post-title a {
     color: #545047;
@@ -351,7 +353,9 @@ div.audio-player {
     width: 100% !important; }
 
   #contain {
-    width: 80% !important; }
+    width: 88% !important;
+    margin-left: none !important;
+    margin-top: 20pt !important; }
 
   header {
     width: 100% !important; } }
@@ -367,7 +371,7 @@ html {
 #contain {
   max-width: 512pt;
   margin: 50px auto 0px auto;
-  padding: 0px 20pt 150pt 20pt; }
+  padding: 0px 20pt 50pt 20pt; }
   #contain img {
     max-width: 100%; }
 
@@ -434,20 +438,11 @@ nav a {
 small {
   padding: 0 auto; }
 
-.left-half {
-  width: 50%;
-  padding: 0px 10pt 0px 10pt; }
-
-.right-half {
-  width: 50%;
-  padding: 0px 10pt 0px 10pt; }
-
 footer {
   clear: both;
   position: absolute;
-  bottom: 0;
   left: 0;
-  height: 140pt;
+  height: auto;
   background: #EEB23E;
   width: 100%;
   font-size: .75em;
@@ -473,13 +468,16 @@ footer {
     color: rgba(0, 0, 0, 0.3);
     margin-bottom: 2em; }
 
+.social {
+  font-size: 1.3em; }
+
 #footer-contain {
   height: auto;
   margin-top: 4em;
   margin-left: auto;
   margin-right: auto;
   max-width: 512pt;
-  padding: 0px 10pt 0px 10pt; }
+  padding: 0px 0pt 0px 10pt; }
   #footer-contain p {
     margin-bottom: 2em; }
 

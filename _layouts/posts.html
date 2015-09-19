@@ -5,7 +5,10 @@
     <span class="link-post-title"><a href="{{ post.meta.link }}">{{ post.title }}</a></span>
     <span class="link-icon"><i class="icon-chevron-right"></i></span>
     <br>
+
+<!-- Date
     <div class="date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time><span class="permalink-icon"><a href="{{ post.url }}"><i class="icon-link"></i></a></span></div>
+-->
 
     {% if post.taxonomy.Tags %}
     <ul class="list_horizontal">

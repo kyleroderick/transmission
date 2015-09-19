@@ -1,47 +1,48 @@
 // Reset
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
- 
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
+  margin: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline; }
- 
+
 /* HTML5 display-role reset for older browsers */
- 
+
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block; }
- 
+
 body {
   line-height: 1; }
- 
+
 ol, ul {
   list-style: none; }
- 
+
 blockquote, q {
   quotes: none; }
- 
+
 blockquote {
   &:before, &:after {
     content: '';
     content: none; } }
- 
+
 q {
   &:before, &:after {
     content: '';
     content: none; } }
- 
+
 table {
   border-collapse: collapse;
   border-spacing: 0; }
-  
-  
+
+
 // Includes
 
 
@@ -56,7 +57,9 @@ table {
 
 @media (min-width: 10px) and (max-width: 512pt){
   #nav-contain {width:100% !important;}
-  #contain {width: 80% !important; }
+  #contain {width: 88% !important;
+  margin-left: none !important;
+  margin-top: 20pt !important;}
   header {width: 100% !important; }
 }
 
@@ -82,7 +85,7 @@ html {
 #contain {
   max-width: 512pt;
   margin: 50px auto 0px auto;
-  padding: 0px 20pt 150pt 20pt;
+  padding: 0px 20pt 50pt 20pt;
   img {
 	max-width: 100%;
   }
@@ -173,26 +176,11 @@ small {
 }
 
 
-.left-half {
-  width: 50%;
-  padding: 0px 10pt 0px 10pt;
-}
-
-
-.right-half {
-  width: 50%;
-  padding: 0px 10pt 0px 10pt;
-}
-
-
-
-
 footer {
   clear: both;
   position: absolute;
-  bottom: 0;
   left: 0;
-  height: 140pt;
+  height: auto;
   background: $Yellow;
   width: 100%;
   font-size: .75em;
@@ -211,6 +199,7 @@ footer {
 	ul {
   	vertical-align: center;
   	margin-bottom: 1.5em;
+
 	}
 	a {
 		text-decoration: none;
@@ -223,13 +212,17 @@ footer {
 	}
 }
 
+.social {
+  font-size: 1.3em;
+}
+
 #footer-contain {
   height: auto;
   margin-top: 4em;
   margin-left: auto;
   margin-right: auto;
   max-width: 512pt;
-  padding: 0px 10pt 0px 10pt;
+  padding: 0px 0pt 0px 10pt;
   p {
   	margin-bottom: 2em;
 	}
@@ -253,22 +246,3 @@ footer {
   .downloads, footer { display: none; }
   section { border: 0; }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

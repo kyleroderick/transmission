@@ -3,7 +3,7 @@
 .mejs-offscreen{
 /* Accessibility: hide screen reader texts (and prefer "top" for RTL languages). */
 	position: absolute !important;
-	top: -10000px;
+	top: -90000px;
 	overflow: hidden;
 	width: 1px;
 	height: 1px;
@@ -195,6 +195,8 @@
 	color: black;
 	@include sans;
 	display: block;
+	font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
+	font-size: .75em;
 	height: 17px;
 	width: auto;
 	padding: 10px 3px 0 3px ;
@@ -297,10 +299,12 @@
 	position: absolute;
 	display: none;
 	background: #EEB23E;
-	font-size: .8em;
-	width: 36px;
-	height: 17px;
+	font-size: 1.03em;
+	width: 20pt;
+	height: 12pt;
 	top: -26px;
+	padding-top: 2pt;
+	padding-bottom: 2.4pt;
 	margin-left: -18px;
 	text-align: center;
 	color: #fff;
@@ -919,4 +923,3 @@ div.mejs-speed-button {
 }
 
 /* End: Skip Back */
-
