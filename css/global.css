@@ -454,6 +454,7 @@ footer {
   clear: both;
   position: absolute;
   left: 0;
+  bottom: 0;
   height: auto;
   background: #EEB23E;
   width: 100%;
