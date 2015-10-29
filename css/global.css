@@ -383,7 +383,7 @@ html {
 #contain {
   max-width: 512pt;
   margin: 50px auto 0px auto;
-  padding: 0px 20pt 50pt 20pt; }
+  padding: 0px 20pt 200pt 20pt; }
   #contain img {
     max-width: 100%; }
 
@@ -454,7 +454,7 @@ footer {
   clear: both;
   position: absolute;
   left: 0;
-  bottom: auto;
+  bottom: 0;
   height: auto;
   background: #EEB23E;
   width: 100%;
@@ -485,8 +485,8 @@ footer {
   font-size: 1.3em; }
 
 #footer-contain {
-  height: auto;
   margin-top: 4em;
+  bottom: 0;
   margin-left: auto;
   margin-right: auto;
   max-width: 512pt;
