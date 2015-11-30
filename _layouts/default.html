@@ -20,14 +20,18 @@
       <audio class="audio-player" id="player" src="{{site.meta['Feed Press URL']}}{{meta['Episode Number']}}.mp3" type="audio/mp3" controls="controls" style="width:100%; height:100%;">
       Your browser does not support the audio element.
       </audio>
-      <p class="download-button">Download: <a href="{{site.meta['Feed Press URL']}}{{meta['Episode Number']}}.mp3">MP3</a></h4>
+			<button onclick="_gs('event', 'Clicked Download button')">
+				<p class="download-button">Download: <a href="{{site.meta['Feed Press URL']}}{{meta['Episode Number']}}.mp3">MP3</a></h4>
+			</button>
     {% endif %}
 
     {% if {{meta['Audio URL']}} %}
       <audio class="audio-player" id="player" src="{{meta['Audio URL']}}" type="audio/mp3" controls="controls" style="width:100%; height:100%;">
       Your browser does not support the audio element.
       </audio>
-      <p class="download-button">Download: <a href="{{{meta['Audio URL']}}"><b>MP3</b></a></h4>
+			<button onclick="_gs('event', 'Clicked Download button')">
+				<p class="download-button">Download: <a href="{{site.meta['Feed Press URL']}}{{meta['Episode Number']}}.mp3">MP3</a></h4>
+			</button>
     {% endif %}
 
     <p class="post-body">{{body}}<p>
